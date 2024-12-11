@@ -25,6 +25,6 @@ for usuario in usuarios:
 
         # Respuesta
         if "Username and/or password incorrect." not in response.text:
-            cprint(f"[+] {usuario}:{contrasena} es válido", "green", attrs=["bold"], file=sys.stderr)
+            cprint(f"VERIFICANDO {usuario}:{contrasena} es válido", "green", attrs=["bold"], file=sys.stderr)
         else:
-            cprint(f"[-] {usuario}:{contrasena} no es válido", "red", attrs=["bold"], file=sys.stderr)
+            cprint(f"VERIFICANDO {usuario}:{contrasena} no es válido", "red", attrs=["bold"], file=sys.stderr)
