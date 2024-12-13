@@ -9,7 +9,7 @@ cookie = {
 
 # Lista 
 usuarios = ["20060001", "user1", "guest"]
-contrasenas = ["Ivanna0709", "password", "admin123"]
+contrasenas = ["dedede", "password", "admin123"]
 
 # Bucle 
 for usuario in usuarios:
